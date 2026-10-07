@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+:root {
+  --color-primary: hsl(172, 67%, 45%);
+  --color-primary-dark: hsl(183, 100%, 15%);
+  --color-primary-light: hsl(185, 41%, 84%);
+  --color-neutral-dark: hsl(186, 14%, 43%);
+  --color-neutral-light: hsl(184, 14%, 56%);
+  --color-neutral-very-light: hsl(189, 41%, 97%);
+}
+
+ 
+
+body {
+  height: 100vh;
+  font-family: 'Space Mono', monospace;
+  background-color: var(--color-primary-light);
+}
+
+@media screen and (min-width: 694px) {
+  .main-cont-js{
+    display: flex;
+    max-width: 983px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .left-cont-js {
+     flex-basis: 60%;
+
+  }
+
+  .right-cont-js {
+    
+    flex-basis: 40%;
+  }
+
+
+  
+
+}
+
+@media screen and (min-width: 1200px) {
+  
+ .right-cont-js button {
+  margin-top: 5rem;
+ }
+
+}
+
+

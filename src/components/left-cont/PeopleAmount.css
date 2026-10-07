@@ -1,0 +1,37 @@
+.people-amount{
+    margin-top: 1rem;
+}
+
+.people-label {
+    display: flex;
+    justify-content: space-between;
+}
+
+.people-error {
+    color: #c66b55;
+}
+
+.ppl-inner-js input {
+    background-color: var(--color-primary-light);
+    border: none;
+    text-align: end;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 700;
+    width: 5rem;
+    
+}
+
+.ppl-inner-js input::placeholder{
+    color: var(--color-primary-dark);
+}
+
+.ppl-inner-js {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: var(--color-primary-light);
+
+}

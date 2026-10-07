@@ -1,0 +1,30 @@
+.inner-input-js {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: var(--color-primary-light);
+    
+}
+
+
+
+.inner-input-js input{
+    border: none;
+    text-align: end;
+    background-color: var(--color-primary-light);
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+.inner-input-js input::placeholder{
+    color: var(--color-primary-dark);
+}
+
+.dollar-js {
+    color-scheme: white;
+}
+

@@ -1,0 +1,39 @@
+.tip-percent {
+    margin-top: 1rem;
+}
+
+.tip-percent button {
+    border: none;
+    background-color: var( --color-primary-dark);
+    color: whitesmoke;
+    padding: 12px;
+    width: 135px;
+    margin: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.tip-percent input {
+    border: none;
+    background-color: var(--color-neutral-very-light);
+    color: var(--color-primary-dark);
+    padding: 12px;
+    width: 135px;
+    margin: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+.tip-percent-btns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tip-percent button.selected {
+    background-color: var(--color-primary);
+    color: var(--color-primary-dark);
+}

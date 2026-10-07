@@ -1,0 +1,18 @@
+.right-cont-js {
+    margin: 2rem;
+    background-color: var(--color-primary-dark);
+    padding: 1rem;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+.right-cont-js button {
+    border: none;
+    width: 100%;
+    padding: 10px;
+    margin-top: 1rem;
+    background-color: var(--color-primary);
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 400;
+}
