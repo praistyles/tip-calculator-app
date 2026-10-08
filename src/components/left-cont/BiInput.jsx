@@ -17,7 +17,7 @@ export function BiInput({ inputValue, setInputValue }) {
                     min="0"
                     step="0.01"
                     aria-label="Bill amount"
-                    placeholder="0"
+                    placeholder="0.00"
                     value={inputValue} 
                     onChange={handleChange}
                 />
